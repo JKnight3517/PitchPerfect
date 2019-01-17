@@ -144,6 +144,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
     
     func configureUI(_ playState: PlayingState) {
         switch(playState) {
+            
         case .playing:
             setPlayButtonsEnabled(false)
             stopButton.isEnabled = true
